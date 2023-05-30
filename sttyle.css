@@ -67,6 +67,11 @@ body {
     cursor: pointer;
 }
 
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+
 .card .img {
     background: #8B53FF;
     width: 148px;
